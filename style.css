@@ -1,0 +1,88 @@
+body {
+	text-align: center;
+	background-color:#d9e9e9;
+	font-family:MS Gothic;
+}
+a {
+	text-decoration:none;
+	font-family:Century Gothic;
+	margin: 25px;
+	font-size: 2opx;
+}
+
+.button {
+	background-color:#3bb6d0;
+	color:white;
+	padding:20px30px;
+	font-family:Century Gothic;
+	box-shadow:0 0 5px ;
+	text-decoration: none;
+}
+.button:hover {
+	color:#1f4041;
+	background-image:url(images/water.png);
+}
+
+#main-menu {
+	margin:0;
+	padding: 0;
+	text-align: center;
+	list-style:none;
+	display:grid;
+	grid-gap:20px;
+	grid-template-columns:repeat(4,1fr);
+}
+
+.showcase {
+	padding:200px;
+	margin-bottom:10px;
+	text-align:center;
+	background-image:url(images/omygad.jpg);
+	background-size:cover;
+	background-position:center;
+	box-shadow:0 0 5px white;
+}
+
+
+.main-article {
+	padding:10px;
+	text-align: center;
+	display:grid;
+	grid-gap:10px;
+	grid-template-columns: 3fr 1fr;
+	box-shadow: 0 0 5 px black;
+}
+
+.main-article-left {
+	grid-column: 1/2;
+	background:#a3dae6;
+	color:#0a3f58;
+	padding:10px;
+	display: grid;
+	grid-gap:50px;
+	grid-template-column:1fr 1fr;
+	box-shadow:0 0 5px white;
+	font-family: Century Gothic;
+	font-size: 20px;
+}
+.main-article-right {
+	padding:10px;
+	background:#0a3f58;
+	margin-bottom:10px;
+	text-position:right;
+	grid-gap:50px;
+	grid-template-column:1fr 1fr;
+	display:grid;
+	font-family:Century Gothic;
+	font-size:20px;
+	color:#a4d9f2;
+}
+
+.footer  {
+	background-image:url(images/waves.png);
+	padding:25px;
+	margin-bottom:10px;
+	text-align:center;
+	color:black;
+	font-size:10px;
+}
